@@ -35,29 +35,29 @@ npm start
 The application supports the following CRUD operations:
 
 ### Create
-Endpoint: POST /api/products
-Description: Create a new product.
-Request Body: Provide product details (name, description, price, quantity, category).
-Response: Returns the created product.
+- Endpoint: POST /api/products
+- Description: Create a new product.
+- Request Body: Provide product details (name, description, price, quantity, category).
+- Response: Returns the created product.
 
 ### Read
-Endpoint: GET /api/products
-Description: Get a list of all products.
-Response: Returns an array of products.
-Endpoint: GET /api/products/:id
-Description: Get a specific product by ID.
-Response: Returns the product details.
+- Endpoint: GET /api/products
+- Description: Get a list of all products.
+- Response: Returns an array of products.
+- Endpoint: GET /api/products/:id
+- Description: Get a specific product by ID.
+- Response: Returns the product details.
 
 ### Update
-Endpoint: PUT /api/products/:id
-Description: Update a specific product by ID.
-Request Body: Provide updated product details.
-Response: Returns the updated product.
+- Endpoint: PUT /api/products/:id
+- Description: Update a specific product by ID.
+- Request Body: Provide updated product details.
+- Response: Returns the updated product.
 
 ### Delete
-Endpoint: DELETE /api/products/:id
-Description: Delete a specific product by ID.
-Response: Returns a success message.
+- Endpoint: DELETE /api/products/:id
+- Description: Delete a specific product by ID.
+- Response: Returns a success message.
 
 Same operations are performed on categories.
 
